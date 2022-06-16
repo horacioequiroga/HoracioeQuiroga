@@ -1,4 +1,6 @@
-import random
+import random 
+desde = 1
+hasta = 50
 def cociente_lista(lista):
     res=[]
     for _ in lista:
