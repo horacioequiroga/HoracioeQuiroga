@@ -1,0 +1,8 @@
+import random
+def cociente_lista(lista):
+    res=[]
+    for _ in lista:
+        x=random.choice(lista)
+        y=random.choice(lista)
+        res.append(cociente([x,y]))
+    return res
